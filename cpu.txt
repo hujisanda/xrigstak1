@@ -20,7 +20,6 @@
  * "cpu_threads_conf" :
  * [
  *      { "low_power_mode" : false, "affine_to_cpu" : 0 },
- *      { "low_power_mode" : false, "affine_to_cpu" : 1 },
  * ],
  * If you do not wish to mine with your CPU(s) then use:
  * "cpu_threads_conf" :
@@ -29,7 +28,6 @@
 
 "cpu_threads_conf" :
 [
-    { "low_power_mode" : 1, "affine_to_cpu" : 0 },
     { "low_power_mode" : 1, "affine_to_cpu" : 1 },
 
 ],
